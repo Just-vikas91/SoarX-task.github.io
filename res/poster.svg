@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#2c3e50"/>
+  
+  <!-- Title -->
+  <text x="200" y="100" text-anchor="middle" font-size="32" font-weight="bold" fill="white">
+    OOPS Online
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="140" text-anchor="middle" font-size="20" fill="#3498db">
+    2-Hour Intensive Class
+  </text>
+  
+  <!-- Programming Icon -->
+  <path d="M200 200 L240 240 L200 280 M160 240 L200 280 M180 220 L220 260" 
+        stroke="#ecf0f1" stroke-width="6" fill="none"/>
+  
+  <!-- Key Details -->
+  <text x="200" y="330" text-anchor="middle" font-size="18" fill="white">
+    Dive into Object-Oriented Programming
+  </text>
+  
+  <text x="200" y="380" text-anchor="middle" font-size="16" fill="#bdc3c7">
+    Date: [Insert Date]
+    Time: [Insert Time]
+    Platform: Online
+  </text>
+  
+  <!-- Registration Button -->
+  <rect x="100" y="450" width="200" height="50" rx="10" fill="#3498db"/>
+  <text x="200" y="480" text-anchor="middle" font-size="18" fill="white">
+    Register Now
+  </text>
+  
+  <!-- Footer -->
+  <text x="200" y="550" text-anchor="middle" font-size="14" fill="#95a5a6">
+    Limited Seats Available
+  </text>
+</svg>
