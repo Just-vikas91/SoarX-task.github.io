@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>Wheel Animation</title> -->
     <!-- <link rel="stylesheet" href="styles.css"> -->
+     <link rel="icon" type="image/x-icon" href="/res/favicon.png">
     <link rel="stylesheet" href="./Task-2/style.css">
     <title>Tech Innovation Summit 2024</title>
 </head>
@@ -15,12 +16,22 @@
       </div> -->
 
       <!-- Task -2 Landing page  -->
+      <nav id="desktop-nav">
+        <div class="logo"><span>Engineer's Summi</span>+</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+      <!-- main page  -->
       <div class="container">
         <div class="poster">
             <img src="/res/OOps-Poster.png" alt="Event Poster">
         </div>
         <div class="registration">
-            <h1>Tech Innovation Summit 2024</h1>
+            <h1>Tech Innovation Summit 2025</h1>
             <form id="registrationForm">
                 <input type="text" name="name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email Address" required>
@@ -44,6 +55,8 @@
                 </select>
                 <button type="submit">Register Now</button>
             </form>
+
+            <!-- Event description -->
             <div class="event-details">
                 <p>📍 Location: Virtual Conference</p>
                 <p>📅 Date: January 25-16, 2025</p>
@@ -55,7 +68,7 @@
         </div>
 
         <!-- Event Description Section -->
-        <div class="section">
+        <div class="section" id="about">
             <h2 class="section-title">Event Description</h2>
             <p>Join us for an intensive OOPS (Object-Oriented Programming) session conducted by software engineer Vikas Patel. This session is designed to provide in-depth insights into the core principles of object-oriented programming.</p>
         </div>
